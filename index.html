@@ -8,39 +8,23 @@
 <head><title>Title of the document</title>
 </head>
 
-<h1>Stuff about different html tags</h1>
-<body> <p><strong>a tag:</strong> Here I'm using the "a" tag, which write a link: <a href="http://www.w3schools.com/tags/tag_a.asp">'this is the link'</a></p>
+<h1>Partial differential equations: Poles and residues</h1>
 
-	<p><strong>abbr tag:</strong>
-		Here I'm using the abbr (or abbrevation) tag. <abbr title="World Health Organisation">WHO</abbr></p>
+<body> 
 
-	<p><em><strong>acronym tag:</strong> 
-		The [acronym] tag is not supported in html5</em><p>
+	<h2>What is a residue?</h2>
+	<p>A residue is a complex number, which you get from looking at the Laurent series of a function. The residue is the coefficient of the <img src="http://latex.codecogs.com/svg.latex?z^{-1}" border="0"/> term and it's written like:</p> 
 
-	<p><strong>address tag: </strong>
-		Here I'm using the address tag. 
-		<address> For any issues contact the author <a href="mailto:dulcie.lee@kcl.ac.uk">Dulcie Lee</a><br>
-			You may also want to visit us at <a href="http://www.kcl.ac.uk">kcl.ac.uk</a><br>
-			King's College London<br>
-			London <br>
-			WC2R 2LS
-		</address></p>
+	<img src="http://latex.codecogs.com/svg.latex?Res(f(z),z_0)=a_{-1} " border="0"/>
 
-	<p><em><strong>applet tag:</strong> The applet tag is not supported in html5, but the applet tag defines a Java applet. Here we use 'embed' or 'object' (see further down).</em></p>
+<p>Which is like, the residue <img src="http://latex.codecogs.com/svg.latex?a_{-1}" border="0"/> of the function <img src="http://latex.codecogs.com/svg.latex?f(z)" border="0"/> at <img src="http://latex.codecogs.com/svg.latex?z_0" border="0"/> and then we try and find the coefficient (i.e. the residue <img src="http://latex.codecogs.com/svg.latex?a_{-1}" border="0"/> through looking at the Laurent series when <img src="http://latex.codecogs.com/svg.latex?z_0" border="0"/> is a pole.)</p>
 
-	<p><strong><u>The next tag is the area tag but it's complicated so come back to it.</u></strong></p>
 
-	<p><strong>article tag: </strong>
-		Here I'm using the article tag. It specifies self-contained, independent content, for example, a news story or comment.
-		<article><h1>Here is my article</h1><p>Here is the copy.</p></article>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Gamma_abs_3D.png" border="0" height="400" width="512"/>
 
-	<p><strong>aside tag: </strong> The aside tag represents a section of the page that is tangiential to the rest. It could be sidebars, definitions in a glossary, related ads, author bio. <aside>Here is my aside for this aritcle.</aside></p>
+<p>Then, through rearranging, since we can't evaluate the function at <img src="http://latex.codecogs.com/svg.latex?z=z_0" border="0"/> (because then we'd be dividing by zero), we take the limit as <img src="http://latex.codecogs.com/svg.latex?z" border="0"/> approaches <img src="http://latex.codecogs.com/svg.latex?z_0" border="0"/>.<br>
+	This then isolates the residue (coz all the other terms <img src="http://latex.codecogs.com/svg.latex?\to" border="0"/> – then we get the residue of the function at the pole).</p>
 
-	<p><strong>audio tag: </strong>The audio tag just embeds and plays audio. Here is David Willetts: 
-		<audio controls> 
-		<source src="David Willetts - working with Ed Byrne.mp3" type="audio/mp3"></audio>
-
-	<p><strong>b tag:</strong> The b tag is for bold, though "strong" is better. <b>using b</b></p>
 
 </body>
 </html>

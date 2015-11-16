@@ -1,6 +1,8 @@
 body {
 	background-color: #f2f2f2;
 	text-align: left;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 
 h1 {
@@ -20,8 +22,10 @@ address {
 	font: Arial;
 }
 h2 {
-	color: #22ff00;
-	background-color: #e15c11;
+	color: #8c8c8c;
+	font-family: Georgia;
+	font: Georgia;
+	line-height: 7px
 }
 
 p {
