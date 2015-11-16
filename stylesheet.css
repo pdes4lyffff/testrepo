@@ -1,0 +1,35 @@
+body {
+	background-color: #f2f2f2;
+	text-align: left;
+}
+
+h1 {
+	color: #8c8c8c;
+	font-family: Georgia;
+	font: Helvetica Condensed;
+	text-align: center;
+	font-size: 40px
+}
+
+ul li {
+	background-color: #F0FF00;
+	font-size: 
+}
+
+address {
+	font: Arial;
+}
+h2 {
+	color: #22ff00;
+	background-color: #e15c11;
+}
+
+p {
+	font-family: Helvetica;
+	color: #333333;
+	font-size: 16px;
+}
+
+ol li {
+	background-color: #24afc3;
+}
